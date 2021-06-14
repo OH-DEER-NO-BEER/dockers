@@ -1,5 +1,5 @@
-FROM golang:1.16.5
+FROM golang:latest
 
-RUN apt-get update
-RUN apt-get install git
-RUN apt-get install nkf
+RUN apt-get update && apt-get upgrade -y
+
+RUN apt-get install -y git
