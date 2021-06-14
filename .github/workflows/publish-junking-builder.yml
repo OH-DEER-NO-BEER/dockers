@@ -2,7 +2,7 @@ name: Build and publish junking-builder docker image
 on:
   push:
     branches:
-    - master
+    - main
     paths:
     - 'junking-builder/**'
     - '.github/workflows/publish-junking-builder.yml'
