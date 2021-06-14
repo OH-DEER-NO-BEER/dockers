@@ -16,7 +16,7 @@ jobs:
     # 参考: https://qiita.com/kawakawaryuryu/items/b0291c1bc1141a535263
     steps:
       - name: Checkout code
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
           submodules: recursive
 
